@@ -30,16 +30,13 @@
     .parallax-section p {
       font-size: 1.5rem;
     }
-    .black-and-white {
-      --filter: grayscale(100%);
+    
     }
     #parallax-1 {
       background: url('cathy-gar3-bw.jpeg') center center/cover fixed;
-      --filter: grayscale(100%);
     }
     #parallax-2 {
       background: url('cathy-gar4-bw.jpeg') center center/cover fixed;
-      --filter: grayscale(100%);
     }
     .section {
       padding: 80px 0;
@@ -55,6 +52,13 @@
     }
     .section p {
       font-size: 1.2rem;
+    }
+  </style>
+
+  <style>
+    img {
+      max-width: 100%;
+      height: auto;
     }
   </style>
   <title>Mobile-Friendly Parallax</title>
@@ -93,7 +97,24 @@
   <section class="section">
     <div class="container">
       <h2>Wedding Party</h2>
-      <p>This is the content of the wedding party section.</p>
+      <p>Meet our lovely family and friends who will by the side of the bride and groom on the big day.</p>
+
+      <table class="table table-responsive">
+      <tbody>
+        <tr>
+          <td>
+            <h3>The Bridesmaids</h3>
+            <img src="image1.jpg" alt="Image 1">
+            <p>Jenny, Sandie, Ciara and Louise</p>
+          </td>
+          <td>
+            <h3>The Groomsmen</h3>
+            <img src="image2.jpg" alt="Image 2">
+            <p>Richie, Thomas, John and Ronan</p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
     </div>
   </section>
 
